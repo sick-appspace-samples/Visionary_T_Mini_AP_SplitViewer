@@ -1,22 +1,21 @@
 --[[----------------------------------------------------------------------------
 
   Application Name: Visionary_T_Mini_AP_SplitViewer
-    
+
   Summary:
   Show the distance and intensity image that the camera acquired
-  
+
   Description:
   Set up the camera to take live images continuously. React to the "OnNewImage"
   event and display the distance and intensity image in a 2D and
   3D viewer, using the addDepthMap function. Also provides a user interface
   to modify the frameperiod and the filter settings.
-  
+
   How to run:
   Start by running the app (F5) or debugging (F7+F10).
   Set a breakpoint on the first row inside the main function to debug step-by-step.
   See the results in the different image viewer on the DevicePage.
 
-    
 ------------------------------------------------------------------------------]]
 --Start of Global Scope---------------------------------------------------------
 -- Variables, constants, serves etc. should be declared here.
